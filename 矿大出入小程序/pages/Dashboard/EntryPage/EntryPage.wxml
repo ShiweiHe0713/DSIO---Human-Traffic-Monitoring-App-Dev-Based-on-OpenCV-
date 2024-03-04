@@ -1,0 +1,14 @@
+<!--pages/Dashboard/EntryPage/EntryPage.wxml-->
+<!-- <text>375px x 724px</text> -->
+<!-- <image src="/pictures/Mockup.gif" style="height: 100vh; width: 100%;"></image> -->
+
+<view class="content">
+  <input class='date' placeholder='{{date}}' value='{{date}}'></input>
+	<image class='background' src="../../../pictures/dyb.gif" mode="scaleToFill"></image>
+  <text class="counter">有效期: 10:00</text>
+  <!-- <text style="display: block;text-align: center;font-size: 30px;color: #f60;margin-top: 50px; position: absolute;">
+    {{counter}}
+</text> -->
+</view>
+
+

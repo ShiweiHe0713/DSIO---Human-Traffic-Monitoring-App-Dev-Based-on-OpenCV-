@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/Dashboard/Dashboard",
+    "pages/Search/Search",
+    "pages/Mine/Mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Dashboard/EntryPage/EntryPage",
+    "pages/Dashboard/EntryPage3/EntryPage3"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#930000",
+    "navigationBarTitleText": "中国矿业大学（北京）",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list":[
+      {
+      "pagePath": "pages/Dashboard/Dashboard",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home.png"
+    },
+    {
+      "pagePath": "pages/Search/Search",
+      "text": "记录查询",
+      "iconPath": "icons/search.png",
+      "selectedIconPath": "icons/search.png"
+    },
+    {
+      "pagePath": "pages/Mine/Mine",
+      "text": "我的",
+      "iconPath": "icons/my.png",
+      "selectedIconPath": "icons/my.png"
+    }
+  ],
+  "color": "#000000",
+  "selectedColor": "#000000"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

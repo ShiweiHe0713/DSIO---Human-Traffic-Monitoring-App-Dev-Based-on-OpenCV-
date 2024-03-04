@@ -1,0 +1,14 @@
+<!--pages/Dashboard/Dashboard.wxml-->
+<view class="upBlock">
+  <image src="/icons/Badge.png"></image>
+  <text id="upText">校园防控管理系统</text>
+</view>
+<view class="underBlock">
+<text id="application">—— 申请 ——</text>
+<button style="width:60vw" bindtap="goToPage1">出校通行证(1/1次)</button>
+<button style="width:60vw" bindtap="goToPage2">进校通行证(1/1次)</button>
+<button style="width:60vw" bindtap="goToPage3">进出校申请</button>
+<button style="width:60vw">寒暑假返校申请</button>
+<button style="width:60vw">体温上报</button>
+</view>
+
